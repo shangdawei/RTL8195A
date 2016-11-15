@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>262008972</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\tz_context.h</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\RTX_Config.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\RTX_Config.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_thread.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_delay.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_mempool.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\user_svc.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_memory.c</file>
+      <file>$PROJ_DIR$\Source\MCU\RTOS\RTX_Config.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\irq_cm3.s</file>
+      <file>$PROJ_DIR$\Linker\rtl8195a_app.icf</file>
+      <file>$PROJ_DIR$\Linker\rtl8195a_btl.icf</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\system_rtl8195a.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\system_rtl8195a.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\startup_rtl8195a.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_mutex.__cstat.et</file>
+      <file>$PROJ_DIR$\Source\MCU\RTOS\RTX_Config.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_mutex.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_msgqueue.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\core_cm_Override.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_semaphore.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_timer.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_evflags.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_lib.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\cmsis_os2.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\core_cm.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_os.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_system.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\irq_cm4f.s</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_thread.c</file>
+      <file>$PROJ_DIR$\Source\RTOS\RTE_Components.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\rtx_kernel.c</file>
+      <file>$PROJ_DIR$\Source\MCU\CMSIS\rtl8195a.h</file>
+      <file>$PROJ_DIR$\Source\MCU\CMSIS\system_rtl8195a.c</file>
+      <file>$PROJ_DIR$\Source\MCU\CMSIS\system_rtl8195a.h</file>
+      <file>$PROJ_DIR$\Source\MCU\CMSIS\startup_rtl8195a.s</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_delay.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_evflags.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_timer.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_msgqueue.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_semaphore.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_semaphore.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_kernel.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_mutex.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\user_svc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_kernel.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_system.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_msgqueue.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\irq_cm4f.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_mempool.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_memory.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\irq_cm3.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_evflags.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_thread.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\RTL8195A.pbd</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\user_svc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_timer.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_system.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_kernel.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\cmsis_compiler.h</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Exe\RTL8195A.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_system.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_mutex.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_memory.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_mempool.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_memory.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\user_svc.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\RTX_Config.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_delay.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_mempool.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_evflags.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_delay.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_thread.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_msgqueue.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_timer.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\rtx_semaphore.__cstat.et</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\system_rtl8195a.__cstat.et</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_msgqueue.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\irq_cm4f.s</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_mutex.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_semaphore.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\core_cm.h</file>
+      <file>$PROJ_DIR$\Library\RTOS\core_cm_Override.h</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_evflags.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\irq_cm3.s</file>
+      <file>$PROJ_DIR$\Library\RTOS\RTE_Components.h</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_delay.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_kernel.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_lib.h</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_memory.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_mempool.c</file>
+      <file>$PROJ_DIR$\Library\MCU\CMSIS\startup_rtl8195a.s</file>
+      <file>$PROJ_DIR$\Source\RTOS\RTX_Config.h</file>
+      <file>$PROJ_DIR$\Library\MCU\CMSIS\system_rtl8195a.h</file>
+      <file>$PROJ_DIR$\Library\MCU\CMSIS\system_rtl8195a.c</file>
+      <file>$PROJ_DIR$\Library\MCU\CMSIS\rtl8195a.h</file>
+      <file>$PROJ_DIR$\Source\RTOS\RTX_Config.c</file>
+      <file>$PROJ_DIR$\Source\App\main.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\cmsis_os2.h</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\List\RTL8195A.map</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\main.o</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj\main.pbi</file>
+      <file>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Obj.o</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_system.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_thread.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_timer.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\user_svc.c</file>
+      <file>$PROJ_DIR$\Library\RTOS\rtx_os.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 76 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_mempool.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\user_svc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\irq_cm3.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 65 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\MCU\RTOS\RTX_Config.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_mutex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_msgqueue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_semaphore.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_evflags.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\irq_cm4f.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 62 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_thread.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_kernel.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\MCU\CMSIS\system_rtl8195a.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 78 9 13 8 7 70 10 71 55 75 86 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75 55 71 78 9 13 7 8 43 70 10 86 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\MCU\CMSIS\startup_rtl8195a.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>C:\Program Files (x86)\IAR Systems\EWARM\Output\RTL8195A\Debug\Exe\RTL8195A.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 22 65 119 1 87 48 59 81 82 50 80 51 79 91 72 25 23 56 4 6 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_msgqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\irq_cm4f.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_mutex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_semaphore.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_evflags.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\irq_cm3.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_kernel.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_memory.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_mempool.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\MCU\CMSIS\startup_rtl8195a.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\MCU\CMSIS\system_rtl8195a.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 78 9 13 8 7 70 10 71 55 75 86 77 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\RTOS\RTX_Config.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126 9 13 8 7 70 10 71 55 58 12 117 111</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\App\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 9 13 8 7 70 10 71 55 58 12 114 78 75 86 77 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_system.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_thread.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\rtx_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 14 13 8 7 70 10 71 55 12 57 11 100 101 104 114 78 9 75 86 77 112 0 117 58 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\RTOS\user_svc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_delay.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_mempool.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\user_svc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_memory.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_mutex.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_msgqueue.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_semaphore.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_timer.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_evflags.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_system.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_thread.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_kernel.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_delay.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_mempool.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\user_svc.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_memory.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_mutex.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_msgqueue.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_semaphore.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_timer.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_evflags.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_system.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_thread.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Source\RTOS\rtx_kernel.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
